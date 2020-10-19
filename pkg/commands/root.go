@@ -1,8 +1,6 @@
 package commands
 
 import (
-	"fmt"
-
 	"github.com/eankeen/bamboo/pkg/config"
 	"github.com/eankeen/bamboo/pkg/x"
 	"github.com/safinsingh/stat"
@@ -21,7 +19,7 @@ var rootCmd = &cobra.Command{
 		conf := config.Parse(location)
 		stat.Success("Deserialized configuration")
 		if verbose {
-			stat.Info(fmt.Sprintf("Parsed configuration: %+v", conf))
+			stat.InfoF("Parsed configuration: %+v", conf)
 		}
 		x.Draw(conf)
 	},
