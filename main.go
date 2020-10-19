@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"github.com/BurntSushi/xgb"
+	"github.com/safinsingh/stat"
+)
 
 func main() {
-	fmt.Println("Haii")
+	_, err := xgb.NewConn()
+	if err != nil {
+		stat.Fail("Failed to initialize X connection: " + err.Error())
+	}
 }
