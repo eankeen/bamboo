@@ -1,6 +1,8 @@
 package commands
 
 import (
+	"encoding/json"
+
 	"github.com/eankeen/bamboo/config"
 	"github.com/eankeen/bamboo/x"
 	"github.com/safinsingh/stat"
@@ -19,7 +21,8 @@ var rootCmd = &cobra.Command{
 		conf := config.Parse(location)
 		stat.Success("Deserialized configuration")
 		if verbose {
-			stat.InfoF("Parsed configuration: %+v", conf)
+			json, _ := json.MarshalIndent(conf, "", "  ")
+			stat.Info("Parsed configuration: \n", string(json))
 		}
 		x.Draw(conf)
 	},
