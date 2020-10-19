@@ -4,3 +4,5 @@ github.com/logrusorgru/aurora v2.0.3+incompatible h1:tOpm7WcpBTn4fjmVfgpQq0EfczG
 github.com/logrusorgru/aurora v2.0.3+incompatible/go.mod h1:7rIyQOR62GCctdiQpZ/zOJlFyk6y+94wXzv6RNZgaR4=
 github.com/safinsingh/stat v1.0.0 h1:Y2DM41lMgAaEu6ysE9nmLXGMr6d1O1v0QTrhGqkFFBs=
 github.com/safinsingh/stat v1.0.0/go.mod h1:DG7ATvZ3UisfGmakaJH+BI4WJYoihlNoN6nm2xVLYag=
+github.com/safinsingh/stat v1.0.1 h1:QQ7eGxbE+MkUkLsrO3pVfhaAG6O1YmckFeW5dhqhDTs=
+github.com/safinsingh/stat v1.0.1/go.mod h1:DG7ATvZ3UisfGmakaJH+BI4WJYoihlNoN6nm2xVLYag=
