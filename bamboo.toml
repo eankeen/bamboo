@@ -9,15 +9,15 @@ center = true
 # offsets will be applied
 # on top of `center` if
 # it's enabled
-offset-x = 0
-offset-y = 0
+offsetX = 0
+offsetY = 0
 
 widgets = [
 	"clock"
 ]
 
 # can be around, between, none
-widget-spacing = "around"
+widgetSpacing = "around"
 
 [[widgets]]
 name = "clock"
@@ -29,9 +29,9 @@ format = "%H:%M"
 
 # defaults to white and black
 # respectively
-foreground-normal = "#ffffff"
-background-normal = "#000000"
+foregroundNormal = "#ffffff"
+backgroundNormal = "#000000"
 
 # defaults to normals
-foreground-hover = "#ffffff"
-background-hover = "#000000"
+foregroundHover = "#ffffff"
+backgroundHover = "#000000"

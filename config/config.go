@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 
 	"github.com/BurntSushi/toml"
-	"github.com/eankeen/bamboo/pkg/types"
+	"github.com/eankeen/bamboo/types"
 	"github.com/safinsingh/stat"
 )
 

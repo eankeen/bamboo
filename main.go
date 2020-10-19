@@ -1,6 +1,6 @@
 package main
 
-import "github.com/eankeen/bamboo/pkg/commands"
+import "github.com/eankeen/bamboo/commands"
 
 func main() {
 	commands.Execute()

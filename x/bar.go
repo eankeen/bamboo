@@ -1,7 +1,7 @@
 package x
 
 import (
-	"github.com/eankeen/bamboo/pkg/types"
+	"github.com/eankeen/bamboo/types"
 
 	"github.com/BurntSushi/xgb"
 	"github.com/safinsingh/stat"

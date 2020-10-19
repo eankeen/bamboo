@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/eankeen/bamboo/pkg/config"
-	"github.com/eankeen/bamboo/pkg/x"
+	"github.com/eankeen/bamboo/config"
+	"github.com/eankeen/bamboo/x"
 	"github.com/safinsingh/stat"
 	"github.com/spf13/cobra"
 )
