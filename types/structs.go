@@ -1,16 +1,16 @@
 package types
 
 type BarConfig struct {
-	Width         int      `toml:"width"`
-	Height        int      `toml:"height"`
-	Center        bool     `toml:"center"`
-	OffsetX       int      `toml:"offsetX"`
-	OffsetY       int      `toml:"offsetY"`
-	Widgets       []string `toml:"widgets"`
-	WidgetSpacing string   `toml:"widgetSpacing"`
+	Width         int
+	Height        int
+	Center        bool
+	OffsetX       int
+	OffsetY       int
+	Widgets       []string
+	WidgetSpacing string
 }
 
 type Config struct {
-	Bar     BarConfig
+	Bar     []BarConfig
 	Widgets []map[string]string `toml:"widgets"`
 }

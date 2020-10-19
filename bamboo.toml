@@ -1,37 +1,39 @@
-[bar]
+[[Bar]]
+Name = "main"
+
 # dimensions in pixels
-width = 1000
-height = 50
+Width = 1000
+Height = 50
 
 # horizontal center
-center = true
+Center = true
 
 # offsets will be applied
 # on top of `center` if
 # it's enabled
-offsetX = 0
-offsetY = 0
+OffsetX = 0
+OffsetY = 0
 
-widgets = [
+Widgets = [
 	"clock"
 ]
 
 # can be around, between, none
-widgetSpacing = "around"
+WidgetSpacing = "around"
 
 [[widgets]]
-name = "clock"
+Name = "clock"
 
 # built-in module
-type = "time"
+Type = "time"
 # strftime-style format
-format = "%H:%M"
+Format = "%H:%M"
 
 # defaults to white and black
 # respectively
-foregroundNormal = "#ffffff"
-backgroundNormal = "#000000"
+ForegroundNormal = "#ffffff"
+BackgroundNormal = "#000000"
 
 # defaults to normals
-foregroundHover = "#ffffff"
-backgroundHover = "#000000"
+ForegroundHover = "#ffffff"
+BackgroundHover = "#000000"
