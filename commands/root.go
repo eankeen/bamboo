@@ -23,8 +23,8 @@ var rootCmd = &cobra.Command{
 		}
 		stat.Success("Deserialized configuration")
 		if verbose {
-			json, _ := json.MarshalIndent(conf, "", "  ")
-			stat.Info("Parsed configuration: \n", string(json))
+			json, _ := json.MarshalIndent(conf, "", "   ")
+			stat.Info("Parsed configuration:\n", string(json))
 		}
 		// x.Draw(conf)
 	},

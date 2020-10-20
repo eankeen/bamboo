@@ -21,9 +21,7 @@ Widgets = [
 # can be around, between, none
 WidgetSpacing = "around"
 
-[[Widgets]]
-Name = "Clock"
-
+[Widgets.Clock]
 # built-in module
 Type = "Time"
 # strftime-style format
