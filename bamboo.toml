@@ -1,5 +1,5 @@
 [[Bar]]
-Name = "main"
+Name = "Main"
 
 # dimensions in pixels
 Width = 1000
@@ -15,14 +15,14 @@ OffsetX = 0
 OffsetY = 0
 
 Widgets = [
-	"clock"
+	"Clock"
 ]
 
 # can be around, between, none
 WidgetSpacing = "around"
 
 [[Widgets]]
-Name = "clock"
+Name = "Clock"
 
 # built-in module
 Type = "time"
