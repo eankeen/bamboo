@@ -25,7 +25,7 @@ WidgetSpacing = "around"
 Name = "Clock"
 
 # built-in module
-Type = "time"
+Type = "Time"
 # strftime-style format
 Format = "%H:%M"
 

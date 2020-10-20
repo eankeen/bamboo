@@ -9,3 +9,7 @@ prod:
 # update dependencies
 update:
 	go get -t -u ./...
+
+redep:
+	rm go.sum && \
+	go get -v -t -d ./...
