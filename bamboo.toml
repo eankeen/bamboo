@@ -21,7 +21,7 @@ Widgets = [
 # can be around, between, none
 WidgetSpacing = "around"
 
-[[widgets]]
+[[Widgets]]
 Name = "clock"
 
 # built-in module

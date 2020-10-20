@@ -12,5 +12,5 @@ type BarConfig struct {
 
 type Config struct {
 	Bar     []BarConfig
-	Widgets []map[string]string `toml:"widgets"`
+	Widgets []map[string]string
 }
