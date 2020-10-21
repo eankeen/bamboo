@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/eankeen/bamboo/config"
+	"github.com/eankeen/bamboo/x"
 	"github.com/safinsingh/stat"
 	"github.com/spf13/cobra"
 )
@@ -26,7 +27,7 @@ var rootCmd = &cobra.Command{
 			json, _ := json.MarshalIndent(conf, "", "   ")
 			stat.Info("Parsed configuration:\n", string(json))
 		}
-		// x.Draw(conf)
+		x.Draw(conf)
 	},
 }
 

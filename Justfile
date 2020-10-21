@@ -17,7 +17,7 @@ redep:
 fmt:
 	gofumpt -s -w -extra .
 
-brain:
+all:
 	just redep
 	just updep
 	just fmt

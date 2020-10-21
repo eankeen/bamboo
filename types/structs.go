@@ -12,7 +12,7 @@ type BarConfig struct {
 
 type Config struct {
 	Bar     []BarConfig
-	Widgets map[string]interface{}
+	Widgets map[string]map[string]interface{}
 }
 
 type TimeWidget struct {
