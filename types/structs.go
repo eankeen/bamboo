@@ -12,5 +12,15 @@ type BarConfig struct {
 
 type Config struct {
 	Bar     []BarConfig
-	Widgets []map[string]string
+	Widgets map[string]interface{}
+}
+
+type TimeWidget struct {
+	Name             string
+	Type             string
+	Format           string
+	ForegroundNormal string
+	BackgroundNormal string
+	ForegroundHover  string
+	BackgroundHover  string
 }
