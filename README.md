@@ -2,6 +2,6 @@
 
 A highly configurable bar for the X Window System
 
-## Features
+## Archived
 
-- Configurable
+- Moved to [here](https://github.com/safinsingh/bamboo)
